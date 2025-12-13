@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         dollars = 100000;
+        UpdateMoneyText();
     }
 
     public void GainMoney(float mult)
