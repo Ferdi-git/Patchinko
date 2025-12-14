@@ -49,4 +49,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Mainmenu");
     }
+
+    public void Retry()
+    {
+        SceneManager.LoadScene("Game");
+    }
 }
