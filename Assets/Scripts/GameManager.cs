@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
         if (dollars <= 0)
         {
             dollars = 0;
+            UpdateMoneyText();
             Echap();
         }
 
